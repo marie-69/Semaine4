@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bc9600;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+form{
+    padding: 10px 50px ;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+label{
+    margin: 10px;
+}
+
+.id{
+    width: 6em;
+    height: 0.8em;
+}
+
+.appli{
+    display: flex;
+    padding: 0 7%;
+   /* border: 1px solid black;*/
+}
+
+#reseau{
+    width: 50%;
+    text-align: right;
+    font-size: 1em;
+}
+
+.heure{
+    display: flex;
+    margin: 3% 10%;
+    padding: 0 7%;
+}
+
+.combien{
+    text-align: left;
+}
+
+.application{
+    display: flex;
+    margin: 3% 0;
+    padding: 0 10%;
+    
+    
+}
+
+.pourquoi{
+    text-align: left;
+}
+
+.com{
+    display: flex;
+    margin: 3% 10%;
+}
+
+button{
+    padding: 10px;
+    background-color: #bc9600;
+    color: white;
+    border: none;
+}

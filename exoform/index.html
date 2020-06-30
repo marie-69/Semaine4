@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Formulaire d'enquête sur les médias sociaux</h2>
+
+    <form action="form">
+        <p>Veuillez remplir tous les champs</p>
+        
+        <div class="nom">
+            <label for="nom">*nom:</label>
+            <input type="text" name="Votre nom" placeholder="Votre nom" >
+        </div><br>
+        <div class="email">
+            <label for="email">*Email:</label>
+            <input type="email" name="email" placeholder="Votre email">
+        </div><br>
+        <div class="age">
+            <label for="age">*Age:</label>
+            <input type="number" placeholder="Age" value="Age">
+        </div><br>
+        
+        <div class="appli">
+        <label for="application" id="reseau">Quelle application sur les réseaux sociaux utilisez-vous?</label>
+            <select name="application" id="appli">
+                 <option value="option">Select an option</option>
+            </select><br>
+        </div>
+        
+        <div class="heure">
+        <label for="heures">Combien d'heures utilisez-vous?</label>
+            <div class="combien">
+                <input type="radio" id="un" name="heure" value="un">
+                <label for="un">0-1 heure</label><br>
+                <input type="radio" id="deux" name="heure" value="deux">
+                <label for="deux">2-3 heures</label><br>
+                <input type="radio" id="trois" name="heure" value="trois">
+                <label for="trois">3-4 heures</label><br>
+                <input type="radio" id="quatre" name="heure" value="quatre">
+                <label for="quatre">4+ heures</label><br>
+            </div>
+        </div>
+        
+        <div class="application">
+        <label for="raison">Pourquoi utilisez-vous cette application</label>
+            <div class="pourquoi">
+                <input type="checkbox" id="actualite" name="actualite" value="actu">
+                <label for="actualite">Actualités</label><br>
+                <input type="checkbox" id="professionnel" name="professionnel" value="pro">
+                <label for="professionnel">Professionnel</label><br>
+                <input type="checkbox" id="voyage" name="voyage" value="voyage">
+                <label for="voyage">Voyage</label><br>
+                <input type="checkbox"  id="passe" name="passe" value="passe">
+                <label for="passe">Passe temps</label><br>
+                <input type="checkbox" id="inspi" name="inspi" value="inspi">
+                <label for="inspi">Inspirations</label><br>
+                <input type="checkbox" id="photo" name="photo" value="photo">
+                <label for="photo">Photos</label><br>
+                <input type="checkbox" id="video" name="video" value="video">
+                <label for="Video">Videos</label><br>
+            </div>
+        </div>
+        
+        <div class="com">
+        <label for="comment">Des commentaires ou suggestions?</label>
+            <div>
+                <textarea name="message" placeholder="Mettez vos commentaires" rows="3" cols="25"></textarea>
+            </div>
+        </div>
+
+        <div class="button">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+    
+</body>
+</html>
